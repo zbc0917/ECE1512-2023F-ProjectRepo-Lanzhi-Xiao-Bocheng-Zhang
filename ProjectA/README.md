@@ -11,7 +11,7 @@ Here is the explanation of what is included in the Supplementary file:
 
     5. annotations.csv. Note that this file includes each image file name and its corresponding majority-vote label and degree of annotator agreement expressed as the number of annotators who marked the image as SSA (e.g., 6 indicates 6/7 agreement with a ground truth of SSA, and 2 would indicate 5/7 agreement with a ground truth of HP).
 
-Task 1. ipynb Introduction:
+*Task 1. ipynb Introduction:*
 The code begins by setting up the environment in Google Colab. The necessary libraries and packages, including Google Drive for data access and various machine learning and data processing packages, are imported. We separate our code for 12 parts
    
     1. Load Data: Load "MNIST" dataset and spilt to testing part and training part.
@@ -39,7 +39,7 @@ The code begins by setting up the environment in Google Colab. The necessary lib
     12. XAI Implement:
 
 
-Task 2. ipynb Introduction:
+*Task 2. ipynb Introduction:*
 
     
 
