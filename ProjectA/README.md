@@ -12,25 +12,31 @@ Here is the explanation of what is included in the Supplementary file:
     5. annotations.csv. Note that this file includes each image file name and its corresponding majority-vote label and degree of annotator agreement expressed as the number of annotators who marked the image as SSA (e.g., 6 indicates 6/7 agreement with a ground truth of SSA, and 2 would indicate 5/7 agreement with a ground truth of HP).
 
 Task 1. ipynb Introduction:
-The code begins by setting up the environment in Google Colab. The necessary libraries and packages, including Google Drive for data access and various machine learning and data processing packages, are imported. We separate our code for 10 parts
-    1.
+The code begins by setting up the environment in Google Colab. The necessary libraries and packages, including Google Drive for data access and various machine learning and data processing packages, are imported. We separate our code for 12 parts
+   
+    1. Load Data: Load "MNIST" dataset and spilt to testing part and training part.
     
-    2.
+    2. Model Creation: CNN model as the teacher model; fc_model as the student model.
 
-    3.
+    3. Teacher Loss function: Compute subclass knowledge distillation teacher loss for given images and labels.
 
-    4.
+    4. Student Loss function: Compute subclass knowledge distillation student loss for given images and labels.
 
-    5.
+    5. Train and Evaluation: Perform training and evaluation for a given model.
 
-    6.
+    6. Train Model: Train the teacher model and student model, also train the model with different alpha and temperature.  
 
-    7.
+    7. Test accuracy vs. temperature curve: The accuracy and temperature plot shows the accuracy of the student model in different temperature with alpha = 0.5.
 
-    8.
+    8. Train student from scratch: The student model trained without Knowledge Distillation. 
 
-    9.
-    10.
+    9. Comparing Teacher and Student model: Print the summary for three models (teacher model, student model and student model without KD). Also, the FLOPs for three model. 
+    
+    10. Implementing the state-of-the-art KD algorithm (part a):
+
+    11. Implementing the state-of-the-art KD algorithm (part b):
+
+    12. XAI Implement:
 
 
 Task 2. ipynb Introduction:
