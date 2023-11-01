@@ -9,7 +9,7 @@ Here is the explanation of what is included in the Supplementary file:
 
     3. Task2.ipynb is a Python notebook showing how the teacher (Pre-tained ResNet50V2) and student models (pre-trained MobileNetV2) are trained in the conventional KD frameworks. 
 
-    4. Report.pdf is a report for the project A and include the explanation and result for both task 2.ipynb and task1.ipyb.
+    4. ECE1512 Report.pdf is a report for the project A and include the explanation and result for both task 2.ipynb and task1.ipyb.
 
     6. README.ME: Intorduce the file.
 
