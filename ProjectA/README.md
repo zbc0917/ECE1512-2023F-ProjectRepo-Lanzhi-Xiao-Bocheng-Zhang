@@ -1,6 +1,6 @@
 # README
 
-### File EXPLAIN
+### File Supplementary
 Here is the explanation of what is included in the Supplementary file:
     
     1.Task1.ipynb is a Python notebook showing how the teacher and student models are trained in the conventional KD framework. You will use this file to implement conventional KD for the MNIST dataset.
