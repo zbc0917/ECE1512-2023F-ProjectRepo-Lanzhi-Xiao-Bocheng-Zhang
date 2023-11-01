@@ -35,7 +35,6 @@ The code begins by setting up the environment in Google Colab. The necessary lib
     9. Comparing Teacher and Student model: Print the summary for three models (teacher model, student model and student model without KD). Also, the FLOPs for three model.
         reference code: Tokusumi, "flops_calculation.py," keras-flops, 2020. [Online]. Available: https://github.com/tokusumi/keras-flops/blob/master/keras_flops/flops_calculation.py.
 
-    
     10. Implementing the state-of-the-art KD algorithm (part a): Implement SKD by the method mentioned in the  "Subclass Knowledge Distillation with Known Subclass Labels" 
 
     11. Implementing the state-of-the-art KD algorithm (part b): Implement TAKD by the method mentioned in the "Improved knowledge distillation via teacher assistant"
