@@ -13,6 +13,25 @@ Here is the explanation of what is included in the Supplementary file:
 
     4. Project_B_FAQs.pdf is a list of frequently asked questions that try to shed light on (almost) all of your questions and concerns that you may have during Project B.
 
-    5. Task1_MNIST.ipynb is a python notebook that using the original dataset and synthetic dataset to train the models, ConvNet, AlexNet, VGG11. The synthetic dataset will be created by the 
+    5. Task1_MNIST.ipynb is a python notebook that using the original dataset and synthetic dataset (MNIST) to train the models, ConvNet, AlexNet, VGG11. The synthetic dataset will be created by the Dataset distillation with gradient matching method. (Inspired by: https://arxiv.org/abs/2006.05929)
 
+    6. Task1_MHIST.ipynb is a python notebook that using the original dataset and synthetic dataset (MHIST) to train the models, ConvNet, AlexNet, VGG11. The synthetic dataset will be created by the Dataset distillation with gradient matching method. (Inspired by: https://arxiv.org/abs/2006.05929
+
+    7. Task1_4.ipynb is a python notebook that apply synthetic small datasets to federated learning by integrating the concept of dataset distillation.
+
+    8. Task2_DM.ipynb is a python notebook that apply the dataset condensation with distribution matching method to create a faster set of synthetic dataset than GM.
+
+The following file inspired by Ziyao Guo, Kai Wang, George Cazenavette, Hui Li, Kaipeng Zhang, and Yang You. Towards lossless dataset distillation via difficulty-aligned trajectory matching. arXiv preprint arXiv:2310.05773, 2023.https://arxiv.org/pdf/2310.05773.pdf:
+
+    9. Task2_GATM.ipyb is a python notebook that apply the Difficulty-Aligned Trajectory Matching to create a lossless synthetic dataset than GM. 
+
+    10. task2_gatm.py is a python copy fo the Task2_GATM. 
+
+    11. reparam_module is a python notebook that provid a reparam model. 
+
+    12. MNISTbuffer is a python notebook that provides a bufferfile of MNIST Dataset. 
+
+Report:
+
+    13. ECE1512_B_Report.pdf is a pdf file introducing and summarize the finding of the project B.
 
