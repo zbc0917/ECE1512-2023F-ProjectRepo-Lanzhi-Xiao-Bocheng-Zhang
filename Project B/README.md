@@ -13,15 +13,24 @@ Here is the explanation of what is included in the Supplementary file:
 
     4. Project_B_FAQs.pdf is a list of frequently asked questions that try to shed light on (almost) all of your questions and concerns that you may have during Project B.
 
-    5. Task1_MNIST.ipynb is a python notebook that using the original dataset and synthetic dataset (MNIST) to train the models, ConvNet, AlexNet, VGG11. The synthetic dataset will be created by the Dataset distillation with gradient matching method. (Inspired by: https://arxiv.org/abs/2006.05929)
+The following files inspired by B. Zhao, K. R. Mopuri, and H. Bilen, ”Dataset Condensation with Gradient Matching,” in ICLR, vol. 1, no. 2, p. 3, 2021. [Online].
+Available: https://arxiv.org/abs/2006.05929
 
-    6. Task1_MHIST.ipynb is a python notebook that using the original dataset and synthetic dataset (MHIST) to train the models, ConvNet, AlexNet, VGG11. The synthetic dataset will be created by the Dataset distillation with gradient matching method. (Inspired by: https://arxiv.org/abs/2006.05929
+    5. Task1_MNIST.ipynb is a python notebook that using the original dataset and synthetic dataset (MNIST) to train the models, ConvNet, AlexNet, VGG11. The synthetic dataset will be created by the Dataset distillation with gradient matching method.
+
+    6. Task1_MHIST.ipynb is a python notebook that using the original dataset and synthetic dataset (MHIST) to train the models, ConvNet, AlexNet, VGG11. The synthetic dataset will be created by the Dataset distillation with gradient matching method. 
+
+The following file inspired by R. Song, D. Liu, D. Z. Chen, A. Festag, C. Trinitis, M. Schulz, and A. C. Knoll, ”Federated Learning via Decentralized Dataset Distillation in
+Resource-Constrained Edge Environments,” CoRR, vol. abs/2208.11311, 2022. [Online]. Available: http://arxiv.org/abs/2208.11311
 
     7. Task1_4.ipynb is a python notebook that apply synthetic small datasets to federated learning by integrating the concept of dataset distillation.
 
+The following file inspired by G. Cazenavette, T. Wang, A. Torralba, A. A. Efros, and J.-Y. Zhu, ”Dataset Distillation by Matching Training Trajectories,” in
+Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 4750-4759, 2022. [Online]. Available: https://arxiv.org/abs/2203.11932
+
     8. Task2_DM.ipynb is a python notebook that apply the dataset condensation with distribution matching method to create a faster set of synthetic dataset than GM.
 
-The following file inspired by Ziyao Guo, Kai Wang, George Cazenavette, Hui Li, Kaipeng Zhang, and Yang You. Towards lossless dataset distillation via difficulty-aligned trajectory matching. arXiv preprint arXiv:2310.05773, 2023.https://arxiv.org/pdf/2310.05773.pdf:
+The following files inspired by Ziyao Guo, Kai Wang, George Cazenavette, Hui Li, Kaipeng Zhang, and Yang You. Towards lossless dataset distillation via difficulty-aligned trajectory matching. arXiv preprint arXiv:2310.05773, 2023.https://arxiv.org/pdf/2310.05773.pdf:
 
     9. Task2_GATM.ipyb is a python notebook that apply the Difficulty-Aligned Trajectory Matching to create a lossless synthetic dataset than GM. 
 
