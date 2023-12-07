@@ -1,4 +1,6 @@
+# Project B
 
+## Supplementatary File
 
 Here is the explanation of what is included in the Supplementary file:
 
@@ -11,6 +13,6 @@ Here is the explanation of what is included in the Supplementary file:
 
     4. Project_B_FAQs.pdf is a list of frequently asked questions that try to shed light on (almost) all of your questions and concerns that you may have during Project B.
 
-
+    5. Task1_MNIST.ipynb is a python notebook that using the original dataset and synthetic dataset to train the models, ConvNet, AlexNet, VGG11. The synthetic dataset will be created by the 
 
 
